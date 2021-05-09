@@ -8,9 +8,8 @@ function writeCards(arr,eventName) {
   return arrayFile;
 }
 
-writeCards()
 
-// writeCards(["Lisa", "Kaitlin", "Jan"], "surprise");
+writeCards(["Lisa", "Kaitlin", "Jan"], "surprise");
 
 
 function countDown(num) {
