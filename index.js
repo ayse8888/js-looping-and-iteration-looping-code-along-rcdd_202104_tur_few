@@ -1,6 +1,4 @@
 // Code your solutions in this file
-const eventName = 'surprise';
-const arr = ['Lisa', 'Kaitlin', 'Jan'];
 function writeCards(arr,eventName) {
   let arrayFile = [];
   for(let i = 0 ; i < arr.length; i++){
