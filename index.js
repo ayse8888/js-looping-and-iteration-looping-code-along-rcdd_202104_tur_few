@@ -4,7 +4,7 @@ const arr = ['Lisa', 'Kaitlin', 'Jan'];
 function writeCards(arr,eventName) {
   let arrayFile = [];
   for(let i = 0 ; i < arr.length; i++){
-   let result = `Thank you, ${arr[i]},  for the wonderful ${eventName} gift!`;
+   let result = `Thank you, ${arr[i]}, for the wonderful ${eventName} gift!`;
    arrayFile.push(result);
   }
   return arrayFile;
